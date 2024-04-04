@@ -1,0 +1,20 @@
+diff --git a/node_modules/react-native-deepar/android/build.gradle b/node_modules/react-native-deepar/android/build.gradle
+index 77b67f6..97946d5 100644
+--- a/node_modules/react-native-deepar/android/build.gradle
++++ b/node_modules/react-native-deepar/android/build.gradle
+@@ -18,11 +18,11 @@ def safeExtGet(prop, fallback) {
+ }
+ 
+ android {
+-  compileSdkVersion safeExtGet('Deepar_compileSdkVersion', 29)
+-  buildToolsVersion safeExtGet('Deepar_buildToolsVersion', '29.0.2')
++  compileSdkVersion safeExtGet('Deepar_compileSdkVersion', 30)
++  buildToolsVersion safeExtGet('Deepar_buildToolsVersion', '30.0.0')
+   defaultConfig {
+-    minSdkVersion safeExtGet('Deepar_minSdkVersion', 21)
+-    targetSdkVersion safeExtGet('Deepar_targetSdkVersion', 29)
++    minSdkVersion safeExtGet('Deepar_minSdkVersion', 23)
++    targetSdkVersion safeExtGet('Deepar_targetSdkVersion', 30)
+     versionCode 1
+     versionName "1.0"
+   }
