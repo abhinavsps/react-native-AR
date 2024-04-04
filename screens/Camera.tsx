@@ -12,6 +12,9 @@ const CameraView = () => {
   const insets = useSafeAreaInsets();
   const navigation = useNavigation();
   const [activeIndex, setActiveIndex] = useState(0);
+  const [cameraState, setCameraState] = useState<
+    CameraPositions.FRONT | CameraPositions.BACK
+  >(CameraPositions.FRONT);
 
   useEffect(() => {
     deepARRef?.current?.switchEffect({
@@ -38,21 +41,6 @@ const CameraView = () => {
     if (newIndex < 0) {
       newIndex = effects.length - 1;
     }
-
-    // const newEffect = effects[newIndex];
-
-    // if (newEffect?.platforms.includes(Platform.OS)) {
-    //   deepARRef?.current?.switchEffect({
-    //     mask: newEffect?.name as string,
-    //     slot: 'effect',
-    //   });
-    // } else {
-    //   deepARRef?.current?.switchEffect({
-    //     mask: Effects[0]?.name as string,
-    //     slot: 'effect',
-    //   });
-    // }
-
     setActiveIndex(newIndex);
   };
 
@@ -98,12 +86,21 @@ const CameraView = () => {
         onInitialized={() => {
           console.log('Initiated');
         }}
-        position={CameraPositions.FRONT}
+        position={cameraState}
         onError={(text, type) => {
           console.log('onError =>', text, 'type =>', type);
         }}
       />
       {renderBottom()}
+      <TouchableOpacity
+        style={styles.cameraContainer}
+        onPress={() =>
+          cameraState === CameraPositions.FRONT
+            ? setCameraState(CameraPositions.BACK)
+            : setCameraState(CameraPositions.FRONT)
+        }>
+        <Image source={images.cameraRotate} />
+      </TouchableOpacity>
     </View>
   );
 };
@@ -139,5 +136,14 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: 20,
     padding: 4,
+  },
+  cameraContainer: {
+    position: 'absolute',
+    zIndex: 100,
+    backgroundColor: 'white',
+    padding: 4,
+    right: 20,
+    bottom: 150,
+    borderRadius: 20,
   },
 });
