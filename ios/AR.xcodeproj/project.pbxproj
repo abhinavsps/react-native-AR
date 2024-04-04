@@ -24,6 +24,15 @@
 		C12B8E55530447C5ADD94682 /* Emotions_Exaggerator.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8D11C9A725E349E9B8C1CE90 /* Emotions_Exaggerator.deepar */; };
 		E8C0A5FE60EF461AAEF01B89 /* Ping_Pong.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B3441B3E04878AAB39EA9 /* Ping_Pong.deepar */; };
 		F38A3586705B4294BEADE18E /* Humanoid.deepar in Resources */ = {isa = PBXBuildFile; fileRef = A165397F21D54908B83DAAE3 /* Humanoid.deepar */; };
+		911DF7EDA7144F6C94AF3086 /* 8bitHearts.deepar in Resources */ = {isa = PBXBuildFile; fileRef = F805039D7A1D452F88CC709E /* 8bitHearts.deepar */; };
+		475B02EC12724CF795496D4A /* Hope.deepar in Resources */ = {isa = PBXBuildFile; fileRef = F2CD4A3F52A94A0DB4B202E5 /* Hope.deepar */; };
+		9A3D9B36995243DB97C60D53 /* MakeupLook.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 93D7C9CEEC3949B5914D59CC /* MakeupLook.deepar */; };
+		031713D72C9F4C1DA107EFAE /* Snail.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 103C723AE8D9491F8FEE73D7 /* Snail.deepar */; };
+		BDC3EF2B42454A38A5492E9D /* Split_View_Look.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D12FEAD5270B4455BD591ACB /* Split_View_Look.deepar */; };
+		6C76582B90874940A9BA84A4 /* Stallone.deepar in Resources */ = {isa = PBXBuildFile; fileRef = E9DD451001EC4DD6996F474B /* Stallone.deepar */; };
+		D6839856F0FC4A048ADEF34E /* Vendetta_Mask.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 71F2364DA4954A61B3934503 /* Vendetta_Mask.deepar */; };
+		BF86CCDC16D7474585799A42 /* flower_face.deepar in Resources */ = {isa = PBXBuildFile; fileRef = C8C4E767C2484F78AD8EF2B8 /* flower_face.deepar */; };
+		642C24BB09D74E6E9432433A /* viking_helmet.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 91CF5501FFB34DC79FC1D666 /* viking_helmet.deepar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +73,15 @@
 		D5E2EBDF90004117A2409139 /* Elephant_Trunk.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Elephant_Trunk.deepar; path = ../assets/effects/Elephant_Trunk.deepar; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F104D417F36D461CBF1FC084 /* burning_effect.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = burning_effect.deepar; path = ../assets/effects/burning_effect.deepar; sourceTree = "<group>"; };
+		F805039D7A1D452F88CC709E /* 8bitHearts.deepar */ = {isa = PBXFileReference; name = "8bitHearts.deepar"; path = "../assets/effects/8bitHearts.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2CD4A3F52A94A0DB4B202E5 /* Hope.deepar */ = {isa = PBXFileReference; name = "Hope.deepar"; path = "../assets/effects/Hope.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		93D7C9CEEC3949B5914D59CC /* MakeupLook.deepar */ = {isa = PBXFileReference; name = "MakeupLook.deepar"; path = "../assets/effects/MakeupLook.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		103C723AE8D9491F8FEE73D7 /* Snail.deepar */ = {isa = PBXFileReference; name = "Snail.deepar"; path = "../assets/effects/Snail.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D12FEAD5270B4455BD591ACB /* Split_View_Look.deepar */ = {isa = PBXFileReference; name = "Split_View_Look.deepar"; path = "../assets/effects/Split_View_Look.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9DD451001EC4DD6996F474B /* Stallone.deepar */ = {isa = PBXFileReference; name = "Stallone.deepar"; path = "../assets/effects/Stallone.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		71F2364DA4954A61B3934503 /* Vendetta_Mask.deepar */ = {isa = PBXFileReference; name = "Vendetta_Mask.deepar"; path = "../assets/effects/Vendetta_Mask.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C8C4E767C2484F78AD8EF2B8 /* flower_face.deepar */ = {isa = PBXFileReference; name = "flower_face.deepar"; path = "../assets/effects/flower_face.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91CF5501FFB34DC79FC1D666 /* viking_helmet.deepar */ = {isa = PBXFileReference; name = "viking_helmet.deepar"; path = "../assets/effects/viking_helmet.deepar"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +158,15 @@
 				2D2B3441B3E04878AAB39EA9 /* Ping_Pong.deepar */,
 				F104D417F36D461CBF1FC084 /* burning_effect.deepar */,
 				8C7168B9A9494B3490929484 /* galaxy_background.deepar */,
+				F805039D7A1D452F88CC709E /* 8bitHearts.deepar */,
+				F2CD4A3F52A94A0DB4B202E5 /* Hope.deepar */,
+				93D7C9CEEC3949B5914D59CC /* MakeupLook.deepar */,
+				103C723AE8D9491F8FEE73D7 /* Snail.deepar */,
+				D12FEAD5270B4455BD591ACB /* Split_View_Look.deepar */,
+				E9DD451001EC4DD6996F474B /* Stallone.deepar */,
+				71F2364DA4954A61B3934503 /* Vendetta_Mask.deepar */,
+				C8C4E767C2484F78AD8EF2B8 /* flower_face.deepar */,
+				91CF5501FFB34DC79FC1D666 /* viking_helmet.deepar */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -291,6 +318,15 @@
 				E8C0A5FE60EF461AAEF01B89 /* Ping_Pong.deepar in Resources */,
 				59B240C60C8A430588EA45CD /* burning_effect.deepar in Resources */,
 				27B6ACAA27954E8C99CA829A /* galaxy_background.deepar in Resources */,
+				911DF7EDA7144F6C94AF3086 /* 8bitHearts.deepar in Resources */,
+				475B02EC12724CF795496D4A /* Hope.deepar in Resources */,
+				9A3D9B36995243DB97C60D53 /* MakeupLook.deepar in Resources */,
+				031713D72C9F4C1DA107EFAE /* Snail.deepar in Resources */,
+				BDC3EF2B42454A38A5492E9D /* Split_View_Look.deepar in Resources */,
+				6C76582B90874940A9BA84A4 /* Stallone.deepar in Resources */,
+				D6839856F0FC4A048ADEF34E /* Vendetta_Mask.deepar in Resources */,
+				BF86CCDC16D7474585799A42 /* flower_face.deepar in Resources */,
+				642C24BB09D74E6E9432433A /* viking_helmet.deepar in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
