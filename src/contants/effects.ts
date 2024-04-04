@@ -50,6 +50,11 @@ export const effects = [
     platforms: ['ios', 'android'],
   },
   {
+    name: '8bitHearts.deepar',
+    title: '8 Bit Hearts',
+    platforms: ['ios', 'android'],
+  },
+  {
     name: 'flower_face.deepar',
     title: 'Flower Face',
     platforms: ['ios', 'android'],
