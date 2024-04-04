@@ -1,7 +1,13 @@
-import {Image, Platform, StyleSheet, Text, View} from 'react-native';
+import {
+  Image,
+  Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import React, {useEffect, useRef, useState} from 'react';
 import DeepARView, {CameraPositions, IDeepARHandle} from 'react-native-deepar';
-import {TouchableOpacity} from 'react-native-gesture-handler';
 import {images} from '../src/contants/images';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {useNavigation} from '@react-navigation/native';
