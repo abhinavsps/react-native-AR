@@ -44,6 +44,12 @@ const CameraView = () => {
     setActiveIndex(newIndex);
   };
 
+  const takeScreenshot = () => {
+    if (deepARRef) {
+      deepARRef?.current?.takeScreenshot();
+    }
+  };
+
   const renderBottom = () => {
     return (
       <View style={styles.bottomAbsView}>
@@ -53,7 +59,10 @@ const CameraView = () => {
             onPress={() => changeEffect(-1)}>
             <Image source={images.left} />
           </TouchableOpacity>
-          <TouchableOpacity style={styles.captureView} />
+          <TouchableOpacity
+            style={styles.captureView}
+            onPress={takeScreenshot}
+          />
           <TouchableOpacity
             style={styles.nextPrevBackground}
             onPress={() => changeEffect(1)}>
@@ -89,6 +98,14 @@ const CameraView = () => {
         position={cameraState}
         onError={(text, type) => {
           console.log('onError =>', text, 'type =>', type);
+        }}
+        onScreenshotTaken={(screenshotPath: String) => {
+          console.log('screenshotPath', screenshotPath);
+          const path = 'file://' + screenshotPath;
+          navigation.navigate('Preview', {
+            path: path,
+            type: 'photo',
+          });
         }}
       />
       {renderBottom()}
