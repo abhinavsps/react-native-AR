@@ -944,6 +944,12 @@ PODS:
   - React-Mapbuffer (0.73.6):
     - glog
     - React-debug
+  - react-native-ar-viewer (0.1.17):
+    - React-Core
+  - react-native-cameraroll (7.5.2):
+    - glog
+    - RCT-Folly (= 2022.05.16.00)
+    - React-Core
   - react-native-deepar (0.11.0):
     - React-Core
   - react-native-safe-area-context (4.9.0):
@@ -1179,6 +1185,8 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector-modern`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
+  - react-native-ar-viewer (from `../node_modules/react-native-ar-viewer`)
+  - "react-native-cameraroll (from `../node_modules/@react-native-camera-roll/camera-roll`)"
   - react-native-deepar (from `../node_modules/react-native-deepar`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-nativeconfig (from `../node_modules/react-native/ReactCommon`)
@@ -1277,6 +1285,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   React-Mapbuffer:
     :path: "../node_modules/react-native/ReactCommon"
+  react-native-ar-viewer:
+    :path: "../node_modules/react-native-ar-viewer"
+  react-native-cameraroll:
+    :path: "../node_modules/@react-native-camera-roll/camera-roll"
   react-native-deepar:
     :path: "../node_modules/react-native-deepar"
   react-native-safe-area-context:
@@ -1368,6 +1380,8 @@ SPEC CHECKSUMS:
   React-jsinspector: 85583ef014ce53d731a98c66a0e24496f7a83066
   React-logger: 3eb80a977f0d9669468ef641a5e1fabbc50a09ec
   React-Mapbuffer: 84ea43c6c6232049135b1550b8c60b2faac19fab
+  react-native-ar-viewer: 92c3e919f95ee7a5006ef66f6942ff917c4535de
+  react-native-cameraroll: af8eec1e585d053ff485d98ec837f9a8a11b5745
   react-native-deepar: cecf908d28529982078da181b6cce3f655582cae
   react-native-safe-area-context: b97eb6f9e3b7f437806c2ce5983f479f8eb5de4b
   React-nativeconfig: b4d4e9901d4cabb57be63053fd2aa6086eb3c85f
