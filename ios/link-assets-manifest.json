@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/effects/Elephant_Trunk.deepar",
+      "sha1": "95f91debb4a5beb3f673e9ee1f183a881c3f0b27"
+    },
+    {
+      "path": "assets/effects/Emotion_Meter.deepar",
+      "sha1": "395a8f5443e03c477a706eff3bb0c09e150b6dc5"
+    },
+    {
+      "path": "assets/effects/Emotions_Exaggerator.deepar",
+      "sha1": "4a4a8fb8f163c6fd7b9f6a50c519e91fddb81570"
+    },
+    {
+      "path": "assets/effects/Fire_Effect.deepar",
+      "sha1": "29b48e40730acd702e526fc80943de7b6fc31d4a"
+    },
+    {
+      "path": "assets/effects/Humanoid.deepar",
+      "sha1": "d55892fe97d2adc83768a83fef4ca2979cd8966f"
+    },
+    {
+      "path": "assets/effects/Neon_Devil_Horns.deepar",
+      "sha1": "22a5b00c55000d1532e1ef0074f5940d573032ef"
+    },
+    {
+      "path": "assets/effects/Ping_Pong.deepar",
+      "sha1": "116b85b69cd831a8946e957ef8c8657eccf3af6b"
+    },
+    {
+      "path": "assets/effects/burning_effect.deepar",
+      "sha1": "5891abde7778699f4de0bfadf85b96a49ff24826"
+    },
+    {
+      "path": "assets/effects/galaxy_background.deepar",
+      "sha1": "2959c76c4fba9171717d2b16ee228308b1241af7"
+    }
+  ]
+}

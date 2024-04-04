@@ -12,8 +12,18 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		27B6ACAA27954E8C99CA829A /* galaxy_background.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8C7168B9A9494B3490929484 /* galaxy_background.deepar */; };
+		4A3579B80B5241DAAE5B1612 /* Emotion_Meter.deepar in Resources */ = {isa = PBXBuildFile; fileRef = A8686ADD30674328B7310C39 /* Emotion_Meter.deepar */; };
+		4D0AA008D57D4421BF8CA94A /* Elephant_Trunk.deepar in Resources */ = {isa = PBXBuildFile; fileRef = D5E2EBDF90004117A2409139 /* Elephant_Trunk.deepar */; };
+		59B240C60C8A430588EA45CD /* burning_effect.deepar in Resources */ = {isa = PBXBuildFile; fileRef = F104D417F36D461CBF1FC084 /* burning_effect.deepar */; };
 		7699B88040F8A987B510C191 /* libPods-AR-ARTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AR-ARTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84EA7E142BBD215800EC42B8 /* DeepAR.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EA7E132BBD215800EC42B8 /* DeepAR.xcframework */; };
+		992B7D079B3C4D85B10C53D2 /* Neon_Devil_Horns.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 47BB9D454837461BB8C58764 /* Neon_Devil_Horns.deepar */; };
+		B2A45341DEC242E39F8497E6 /* Fire_Effect.deepar in Resources */ = {isa = PBXBuildFile; fileRef = C672F19CC978432AB6ABB220 /* Fire_Effect.deepar */; };
+		C12B8E55530447C5ADD94682 /* Emotions_Exaggerator.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 8D11C9A725E349E9B8C1CE90 /* Emotions_Exaggerator.deepar */; };
+		E8C0A5FE60EF461AAEF01B89 /* Ping_Pong.deepar in Resources */ = {isa = PBXBuildFile; fileRef = 2D2B3441B3E04878AAB39EA9 /* Ping_Pong.deepar */; };
+		F38A3586705B4294BEADE18E /* Humanoid.deepar in Resources */ = {isa = PBXBuildFile; fileRef = A165397F21D54908B83DAAE3 /* Humanoid.deepar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +47,23 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AR/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AR/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AR-ARTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AR-ARTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2B3441B3E04878AAB39EA9 /* Ping_Pong.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ping_Pong.deepar; path = ../assets/effects/Ping_Pong.deepar; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR.debug.xcconfig"; path = "Target Support Files/Pods-AR/Pods-AR.debug.xcconfig"; sourceTree = "<group>"; };
+		47BB9D454837461BB8C58764 /* Neon_Devil_Horns.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Neon_Devil_Horns.deepar; path = ../assets/effects/Neon_Devil_Horns.deepar; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR.release.xcconfig"; path = "Target Support Files/Pods-AR/Pods-AR.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AR-ARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR-ARTests.debug.xcconfig"; path = "Target Support Files/Pods-AR-ARTests/Pods-AR-ARTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AR/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EA7E132BBD215800EC42B8 /* DeepAR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DeepAR.xcframework; path = "../node_modules/react-native-deepar/ios/Frameworks/DeepAR.xcframework"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AR-ARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR-ARTests.release.xcconfig"; path = "Target Support Files/Pods-AR-ARTests/Pods-AR-ARTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C7168B9A9494B3490929484 /* galaxy_background.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = galaxy_background.deepar; path = ../assets/effects/galaxy_background.deepar; sourceTree = "<group>"; };
+		8D11C9A725E349E9B8C1CE90 /* Emotions_Exaggerator.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Emotions_Exaggerator.deepar; path = ../assets/effects/Emotions_Exaggerator.deepar; sourceTree = "<group>"; };
+		A165397F21D54908B83DAAE3 /* Humanoid.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Humanoid.deepar; path = ../assets/effects/Humanoid.deepar; sourceTree = "<group>"; };
+		A8686ADD30674328B7310C39 /* Emotion_Meter.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Emotion_Meter.deepar; path = ../assets/effects/Emotion_Meter.deepar; sourceTree = "<group>"; };
+		C672F19CC978432AB6ABB220 /* Fire_Effect.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fire_Effect.deepar; path = ../assets/effects/Fire_Effect.deepar; sourceTree = "<group>"; };
+		D5E2EBDF90004117A2409139 /* Elephant_Trunk.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Elephant_Trunk.deepar; path = ../assets/effects/Elephant_Trunk.deepar; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F104D417F36D461CBF1FC084 /* burning_effect.deepar */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = burning_effect.deepar; path = ../assets/effects/burning_effect.deepar; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EA7E142BBD215800EC42B8 /* DeepAR.xcframework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-AR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,11 +120,28 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84EA7E132BBD215800EC42B8 /* DeepAR.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-AR.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-AR-ARTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		718F5D1669874F2E97354256 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5E2EBDF90004117A2409139 /* Elephant_Trunk.deepar */,
+				A8686ADD30674328B7310C39 /* Emotion_Meter.deepar */,
+				8D11C9A725E349E9B8C1CE90 /* Emotions_Exaggerator.deepar */,
+				C672F19CC978432AB6ABB220 /* Fire_Effect.deepar */,
+				A165397F21D54908B83DAAE3 /* Humanoid.deepar */,
+				47BB9D454837461BB8C58764 /* Neon_Devil_Horns.deepar */,
+				2D2B3441B3E04878AAB39EA9 /* Ping_Pong.deepar */,
+				F104D417F36D461CBF1FC084 /* burning_effect.deepar */,
+				8C7168B9A9494B3490929484 /* galaxy_background.deepar */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -122,6 +160,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				718F5D1669874F2E97354256 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -243,6 +282,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4D0AA008D57D4421BF8CA94A /* Elephant_Trunk.deepar in Resources */,
+				4A3579B80B5241DAAE5B1612 /* Emotion_Meter.deepar in Resources */,
+				C12B8E55530447C5ADD94682 /* Emotions_Exaggerator.deepar in Resources */,
+				B2A45341DEC242E39F8497E6 /* Fire_Effect.deepar in Resources */,
+				F38A3586705B4294BEADE18E /* Humanoid.deepar in Resources */,
+				992B7D079B3C4D85B10C53D2 /* Neon_Devil_Horns.deepar in Resources */,
+				E8C0A5FE60EF461AAEF01B89 /* Ping_Pong.deepar in Resources */,
+				59B240C60C8A430588EA45CD /* burning_effect.deepar in Resources */,
+				27B6ACAA27954E8C99CA829A /* galaxy_background.deepar in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
